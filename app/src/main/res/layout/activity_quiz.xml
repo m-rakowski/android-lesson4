@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Dickens -->
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/dickens" />
+
+        <RadioGroup
+            android:id="@+id/dickensRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="30dp"
+            android:paddingLeft="30dp">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Johann Wolfgang von Goethe" />
+
+            <RadioButton
+                android:id="@+id/dickensButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Charles Dickens" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="John Stuart Mill" />
+        </RadioGroup>
+
+        <!-- Ada Lovelace -->
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ada_lovelace" />
+
+        <RadioGroup
+            android:id="@+id/adaRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="30dp"
+            android:paddingLeft="30dp">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Marie Curie" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Maria Mayer" />
+
+            <RadioButton
+                android:id="@+id/adaButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ada Lovelace" />
+        </RadioGroup>
+
+        <!--Tomasz Zan-->
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tomasz_zan" />
+
+        <RadioGroup
+            android:id="@+id/zanRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="30dp"
+            android:paddingLeft="30dp">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Louis Pasteur" />
+
+
+            <RadioButton
+                android:id="@+id/zanButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tomasz Zan" />
+
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Edgar Allan Poe" />
+
+
+        </RadioGroup>
+
+        <!--De Gaulle-->
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/de_gaulle" />
+
+        <RadioGroup
+            android:id="@+id/deGaulleRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="30dp"
+            android:paddingLeft="30dp">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jacques Chirac" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Denis Diderot" />
+
+            <RadioButton
+                android:id="@+id/deGaulleButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Charles De Gaulle" />
+        </RadioGroup>
+
+        <!--Coco Chanel-->
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/coco_chanel" />
+
+        <RadioGroup
+            android:id="@+id/cocoRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="30dp"
+            android:paddingLeft="30dp">
+
+            <RadioButton
+                android:id="@+id/cocoButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Coco Chanel" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Marylin Monroe" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Brigitte Bardot" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</ScrollView>
